@@ -1,7 +1,7 @@
 import { Hono } from 'hono'
 import { honoThrow } from './index.js'
 import { serve } from '@hono/node-server'
-import { HTTPException } from 'hono/http-exception'
+// import { HTTPException } from 'hono/http-exception'
 
 const app = new Hono()
 honoThrow(app) // or app.use(honoThrow())

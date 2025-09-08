@@ -3,7 +3,7 @@ import { json } from 'hono-json'
 
 import { honoThrow } from './index.js'
 
-describe('hono-json', () => {
+describe('hono-throw', () => {
   it('No app', async () => {
     const app = new Hono()
     try {
